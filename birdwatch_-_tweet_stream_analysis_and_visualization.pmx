@@ -12,6 +12,13 @@ documentation: |+
 
   This template installs a Play framework with the Birdwatch code and the latest version of elasticsearch. Several steps must be completed for the application to be operational and accessible.
 
+  ##Memory
+  This application requires at least 3060MB of memory, therefore you may need to reinstall Panamax with the memory option
+  
+      panamax reinstall --memory=3060
+      
+  Or manually set your virtual machine memory size.
+  
   ##Port Forwarding
   In order to view your wiki after running you will need to setup a port forwarding rule.  To view the GUI after launching the template, map your local host machine to port _9000_. If using Virtual Box, use the following command in your
     terminal to create the port forwarding rule:
